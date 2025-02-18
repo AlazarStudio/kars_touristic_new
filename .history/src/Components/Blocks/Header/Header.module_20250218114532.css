@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.containerLeft{
+    width: 105px;
+    height: 98px;
+}

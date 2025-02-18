@@ -1,0 +1,5 @@
+const republics = [
+    {1
+
+}
+];

@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+}
+
+.containerTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerTitle span{
+    fs
+}

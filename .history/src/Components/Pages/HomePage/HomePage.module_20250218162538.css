@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+}
+
+.containerTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.containerTitle span {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.containerSearch {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.containerSearch input {
+  width: 100%;
+  height: 60px;
+  padding: 18px 34px;
+  br
+}
+
+.containerSearch button{
+    position: absolute;
+    right: 0;
+}

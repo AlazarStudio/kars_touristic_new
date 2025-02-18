@@ -1,0 +1,16 @@
+.container{
+    width: 100%;
+}
+
+.containerTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerTitle span{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48PX;
+}
+
