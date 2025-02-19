@@ -1,0 +1,238 @@
+.back {
+  width: 100%;
+  background-color: #181818;
+  color: #fff;
+  margin-top: 80px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 334px;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding-bottom: 34px;
+  padding-top: 40px;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.container1 img {
+  width: 166px;
+  height: 156px;
+  cursor: pointer;
+}
+
+.container1 span {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.container2 span {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.container3 {
+  display: flex;
+  top: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.container3 a:nth-of-type(1) {
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+}
+
+.container3 span:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.tg {
+  display: flex;
+  gap: 14px;
+}
+
+.tg span:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47px;
+  height: 47px;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.tg span:nth-of-type(1) img {
+  width: 30px;
+  height: 26px;
+}
+
+.tg span:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47px;
+  height: 47px;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.tg span:nth-of-type(2) img {
+    width: 30px;
+    height: 26px;
+  }
+
+.container4 {
+  display: flex;
+  width: 240px;
+}
+
+.container4 img {
+  width: 240px;
+  height: 60px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+
+    .back {
+        width: 100%;
+        background-color: #181818;
+        color: #fff;
+        margin-top: 80px;
+      }
+      
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        /* align-items: center; */
+        justify-content: space-between;
+        padding-bottom: 34px;
+        padding-top: 40px;
+      }
+      
+      .container1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 16px;
+      }
+      
+      .container1 img {
+        width: 166px;
+        height: 156px;
+        cursor: pointer;
+      }
+      
+      .container1 span {
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      
+      .container2 {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+      }
+      
+      .container2 span {
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      
+      .container3 {
+        display: flex;
+        top: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+      
+      .container3 a:nth-of-type(1) {
+        font-size: 24px;
+        font-weight: 600;
+        cursor: pointer;
+        color: #fff;
+      }
+      
+      .container3 span:nth-of-type(2) {
+        font-size: 18px;
+        font-weight: 500;
+      }
+      
+      .tg {
+        display: flex;
+        gap: 14px;
+      }
+      
+      .tg span:nth-of-type(1) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 47px;
+        height: 47px;
+        background-color: #fff;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      
+      .tg span:nth-of-type(1) img {
+        width: 30px;
+        height: 26px;
+      }
+      
+      .tg span:nth-of-type(2) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 47px;
+        height: 47px;
+        background-color: #fff;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      
+      .tg span:nth-of-type(2) img {
+          width: 30px;
+          height: 26px;
+        }
+      
+      .container4 {
+        display: flex;
+        width: 240px;
+      }
+      
+      .container4 img {
+        width: 240px;
+        height: 60px;
+        cursor: pointer;
+      }
+      
+
+}
