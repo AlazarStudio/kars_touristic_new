@@ -1,0 +1,9 @@
+.conttainer{
+  display: flex;
+  z-index: 1;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+
+}

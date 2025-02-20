@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  z-index: 1;
+  color: #fff;
+  width: 100%;
+  /* height: 90vh; */
+  /* gap: 30px; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  justify-content: space-between;
+}
+
+.containerLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  width: 344%;
+  outline: 1px solid red;
+}
+
+.containerLeft img {
+  width: 74px;
+}
+
+.containerLeft span:nth-of-type(1) {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.containerLeft span:nth-of-type(2) {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.containerRight {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+  /* gap: 24px; */
+  width: 56%;
+  outline: 1px solid red;
+}
+
+.containerRightEl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 214px;
+  height: 170px;
+  padding: 10px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  cursor: pointer;
+  gap: 16px;
+}
+
+.containerRightEl img {
+  object-fit: cover;
+  width: 76px;
+  height: 76px;
+}
+
+.containerRightEl span {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.containerRightEl.selected {
+  border: 1px solid #fff;
+  backdrop-filter: blur(1px);
+}
+
+@media (max-width: 768px) {
+}

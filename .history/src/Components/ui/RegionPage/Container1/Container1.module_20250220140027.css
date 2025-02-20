@@ -1,0 +1,12 @@
+.conttainer{
+  display: flex;
+  z-index: 1;
+  color: #fff;
+width: 100px;
+height: 100p;
+  border: 1px solid #fff;
+}
+
+@media (max-width: 768px) {
+
+}

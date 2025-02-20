@@ -1,0 +1,10 @@
+.conttainer{
+  display: flex;
+  z-index: 1;
+  color: #fff;
+  border: 1px solid ;
+}
+
+@media (max-width: 768px) {
+
+}
