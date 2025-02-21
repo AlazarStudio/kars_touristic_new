@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.container span:nth-of-type(1)
+
+@media (max-width: 768px) {
+}
