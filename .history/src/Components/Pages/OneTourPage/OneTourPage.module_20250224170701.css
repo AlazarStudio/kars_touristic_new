@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  outline: 1px solid red;
+}
+
+.imgBack{
+  display: flex;
+  position: relative;
+}
+
+.container img{
+  width: 100%;
+  position: fixed;
+}
+
+@media (max-width: 768px) {
+}

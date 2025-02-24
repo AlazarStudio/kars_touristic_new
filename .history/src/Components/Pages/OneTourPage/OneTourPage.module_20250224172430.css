@@ -1,0 +1,11 @@
+hgj
+  height: 100%;
+
+  backdrop-filter: 10px;
+outline: 1px solid red;
+}
+
+
+
+@media (max-width: 768px) {
+}

@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  outline: 1px solid red;
+}
+
+@media (max-width: 768px) {
+}

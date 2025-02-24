@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  outline: 1px solid red;
+}
+
+.container img{
+  image-rendering: ;
+}
+
+@media (max-width: 768px) {
+}

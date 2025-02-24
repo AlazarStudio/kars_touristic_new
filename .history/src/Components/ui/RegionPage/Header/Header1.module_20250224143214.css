@@ -1,0 +1,141 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 14px 0;
+  z-index: 1;
+  color: #fff;
+  /* background-color:violet; */
+}
+
+.containerLeft {
+  width: 105px;
+  height: 98px;
+}
+
+.containerLeft img {
+  width: 100%;
+  height: 100%;
+}
+
+.containerCenter {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.containerCenter a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.containerRight {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.containerRightColl {
+  display: none;
+}
+
+.dropdownMenu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 300px;
+    padding: 24px 32px;
+    outline: 1px solid red;
+  }
+
+  .containerLeft {
+    width: 55px;
+    height: 52px;
+  }
+
+  .containerLeft img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .containerCenter {
+    display: none;
+  }
+
+  .containerCenter a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+  }
+
+  .containerRight {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+  }
+
+  .containerRightColl {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .containerRightColl img {
+    height: 19px;
+  }
+
+  .dropdownMenu {
+    display: flex;
+    position: fixed;
+    top: 80px;
+    right: -10px;
+    width: 190px;
+    /* height: 220px; */
+    background-color: #fff;
+    box-shadow: -4px 0px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999999999;
+    padding: 20px;
+    border-radius: 10px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    outline: 1px solid red;
+
+  }
+
+  .dropdownMenu.show {
+    transform: translateX(0);
+  }
+
+  .dropdownMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .dropdownMenu li {
+    margin-bottom: 15px;
+  }
+
+  .dropdownMenu li:last-child {
+    margin-bottom: 0;
+  }
+
+  .dropdownMenu li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+  }
+
+  .dropdownMenu li a:hover {
+    color: #e5097f;
+  }
+}
