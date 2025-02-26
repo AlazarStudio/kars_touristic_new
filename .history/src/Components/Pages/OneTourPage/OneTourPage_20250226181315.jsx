@@ -7,7 +7,6 @@ import Header1 from '../../ui/RegionPage/Header/Header1';
 import { multiDayTours, onerDayTours, regions } from '../../../../bd'; // ✅ Добавили regions
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
-import Container1 from '../../ui/OneTourPage/Container1';
 
 const transliterate = (text) => {
   const map = {
@@ -169,7 +168,7 @@ function OneTourPage() {
                     </Link>
                   )}
                   {'/'}
-                  <span className={classes.linkTit}>{tour.title}</span>
+                  <span className=''>{tour.title}</span>
                 </div>
                 <div className={classes.block1}>
                   <h1>{tour.title}</h1>
@@ -242,7 +241,6 @@ function OneTourPage() {
           </CenterBlock>
         </div>
       </div>
-      <Container1 tour={tour} />
     </>
   );
 }

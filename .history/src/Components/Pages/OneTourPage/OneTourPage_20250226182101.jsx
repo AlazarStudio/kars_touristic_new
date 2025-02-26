@@ -242,7 +242,7 @@ function OneTourPage() {
           </CenterBlock>
         </div>
       </div>
-      <Container1 tour={tour} />
+      <Container1 />
     </>
   );
 }

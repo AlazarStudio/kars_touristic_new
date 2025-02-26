@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.containerCheck{
+  display: flex;
+  flex-direction: column;
+  
+}
+

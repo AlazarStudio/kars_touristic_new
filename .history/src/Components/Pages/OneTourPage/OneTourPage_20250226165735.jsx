@@ -7,7 +7,6 @@ import Header1 from '../../ui/RegionPage/Header/Header1';
 import { multiDayTours, onerDayTours, regions } from '../../../../bd'; // ✅ Добавили regions
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
-import Container1 from '../../ui/OneTourPage/Container1';
 
 const transliterate = (text) => {
   const map = {
@@ -168,8 +167,8 @@ function OneTourPage() {
                       {currentRegion.title}
                     </Link>
                   )}
-                  {'/'}
-                  <span className={classes.linkTit}>{tour.title}</span>
+                      {'/'}
+                      <span>{tour.title}</span>
                 </div>
                 <div className={classes.block1}>
                   <h1>{tour.title}</h1>
@@ -197,8 +196,7 @@ function OneTourPage() {
                       </div>
                       <div className={classes.cardLeftEl}>
                         <span>Стоимость:</span>
-                        <span>{Number(tour.price).toLocaleString('ru-RU')} ₽</span>
-                          
+                        <span>{tour.price}</span>
                       </div>
                     </div>
                     <div className={classes.cardRight}>
@@ -218,23 +216,15 @@ function OneTourPage() {
                           </SwiperSlide>
                         ))}
                       </Swiper>
-                      <div className={classes.cardButtons}>
-                        <button onClick={() => swiperRef.current?.slidePrev()}>
-                          <img src="/images/butLeft.png" alt="Prev" />
-                        </button>
-                        <button onClick={() => swiperRef.current?.slideNext()}>
-                          <img src="/images/butRight.png" alt="Next" />
-                        </button>
-                      </div>
+                       <div className={classes.cardButtons}>
+                              <button onClick={() => swiperRef.current?.slidePrev()}>
+                                <img src="/images/butLeft.png" alt="Prev" />
+                              </button>
+                              <button onClick={() => swiperRef.current?.slideNext()}>
+                                <img src="/images/butRight.png" alt="Next" />
+                              </button>
+                            </div>
                     </div>
-                  </div>
-                  <div className={classes.cardDays}>
-                    {tour.places.map((el) => (
-                      <span key={el}>
-                        <img src="/images/locat.png" />
-                        {el}
-                      </span>
-                    ))}
                   </div>
                 </div>
               </div>
@@ -242,7 +232,6 @@ function OneTourPage() {
           </CenterBlock>
         </div>
       </div>
-      <Container1 tour={tour} />
     </>
   );
 }
